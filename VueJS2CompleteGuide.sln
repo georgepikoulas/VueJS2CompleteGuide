@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VueJSTemplate", "VueJSTempl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VueJSFromScratch", "VueJSFromScratch\VueJSFromScratch.csproj", "{B707CCA3-3459-4F6D-94D4-78E5E14B558B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VueJSWithAsp", "VueJSWithAsp\VueJSWithAsp.csproj", "{ADC532D5-B8BC-4D50-8992-69282E84DF58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B707CCA3-3459-4F6D-94D4-78E5E14B558B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B707CCA3-3459-4F6D-94D4-78E5E14B558B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B707CCA3-3459-4F6D-94D4-78E5E14B558B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC532D5-B8BC-4D50-8992-69282E84DF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC532D5-B8BC-4D50-8992-69282E84DF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC532D5-B8BC-4D50-8992-69282E84DF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC532D5-B8BC-4D50-8992-69282E84DF58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

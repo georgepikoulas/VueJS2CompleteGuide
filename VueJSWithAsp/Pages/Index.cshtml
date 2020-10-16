@@ -1,15 +1,23 @@
-﻿<!DOCTYPE html>
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
 <html>
 
 <head>
     <title>Index</title>
 </head>
 <body>
+
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
     <div id="app">
-        <input type="text"  v-on:input="changeTitle" />
-        <p>{{ title }}</p> <br /> 
+        <input type="text" v-on:input="changeTitle" />
+        <p>{{title}}</p> <br />
     </div>
 </body>
 </html>
